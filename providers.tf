@@ -14,6 +14,9 @@ terraform {
 }
 
 # Configure the GitHub Provider
-provider "github" {}
+provider "github" {
+  owner = var.organizacion
+
+}
 
 
